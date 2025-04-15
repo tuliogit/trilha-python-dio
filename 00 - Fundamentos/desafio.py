@@ -18,7 +18,7 @@ while True:
     opcao = input(menu)
 
     if opcao == "d":
-        valor = float(input("Informe o valor do depósito: "))
+        valor = float(input("Informe o valor a ser depositado: "))
 
         if valor > 0:
             saldo += valor
